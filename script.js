@@ -38,7 +38,7 @@ const layer = new ol.layer.Image({
 
 const map = new ol.Map({
 	target: "map",
-	pixelRatio: 1,
+	// pixelRatio: 1,
 
 	layers: [
 		new ol.layer.Tile({
